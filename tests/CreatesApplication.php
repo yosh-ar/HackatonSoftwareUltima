@@ -2,7 +2,10 @@
 
 namespace Tests;
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Hash;
+=======
+>>>>>>> origin/Arturo
 use Illuminate\Contracts\Console\Kernel;
 
 trait CreatesApplication
@@ -18,8 +21,11 @@ trait CreatesApplication
 
         $app->make(Kernel::class)->bootstrap();
 
+<<<<<<< HEAD
         Hash::setRounds(4);
 
+=======
+>>>>>>> origin/Arturo
         return $app;
     }
 }

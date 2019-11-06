@@ -2,8 +2,13 @@
 
 namespace App\Providers;
 
+<<<<<<< HEAD
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;
+=======
+use Illuminate\Support\Facades\Broadcast;
+use Illuminate\Support\ServiceProvider;
+>>>>>>> origin/Arturo
 
 class BroadcastServiceProvider extends ServiceProvider
 {

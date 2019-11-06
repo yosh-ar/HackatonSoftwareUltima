@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 let mix = require('laravel-mix');
+=======
+const mix = require('laravel-mix');
+>>>>>>> origin/Arturo
 
 /*
  |--------------------------------------------------------------------------
@@ -11,6 +15,7 @@ let mix = require('laravel-mix');
  |
  */
 
+<<<<<<< HEAD
 mix.styles([
     'resources/assets/plantilla/css/font-awesome.min.css',
     'resources/assets/plantilla/css/simple-line-icons.min.css',
@@ -25,3 +30,7 @@ mix.styles([
     'resources/assets/plantilla/js/template.js'
 ], 'public/js/plantilla.js')
 .js(['resources/assets/js/app.js'],'public/js/app.js');
+=======
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css');
+>>>>>>> origin/Arturo

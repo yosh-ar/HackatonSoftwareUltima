@@ -29,8 +29,11 @@ class Handler extends ExceptionHandler
     /**
      * Report or log an exception.
      *
+<<<<<<< HEAD
      * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
      *
+=======
+>>>>>>> origin/Arturo
      * @param  \Exception  $exception
      * @return void
      */

@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('contenido/contenido');
+=======
+    return view('welcome');
+>>>>>>> origin/Arturo
 });

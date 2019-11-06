@@ -3,11 +3,20 @@
 /public/storage
 /storage/*.key
 /vendor
+<<<<<<< HEAD
 /.idea
 /.vscode
 /.vagrant
+=======
+.env
+.env.backup
+.phpunit.result.cache
+>>>>>>> origin/Arturo
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> origin/Arturo
